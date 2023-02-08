@@ -10,4 +10,8 @@
 #  movie_id   :integer
 #
 class Character < ApplicationRecord
+  def movie
+    char_id = self.movie_id
+    #didn't finish rest bc had to go to train lol
+  end
 end
